@@ -10,16 +10,16 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
-src/quiver-survivors-entitas/[Ll]ibrary/
-src/quiver-survivors-entitas/[Tt]emp/
-src/quiver-survivors-entitas/[Oo]bj/
-src/quiver-survivors-entitas/[Bb]uild/
-src/quiver-survivors-entitas/[Bb]uilds/
-src/quiver-survivors-entitas/[Ll]ogs/
-src/quiver-survivors-entitas/[Uu]ser[Ss]ettings/
-src/quiver-survivors-entitas/[Aa]ssets/Plugins/Editor/JetBrains*
-src/quiver-survivors-entitas/[Aa]ssets/[Ss]treamingAssets/aa.meta
-src/quiver-survivors-entitas/[Aa]ssets/[Ss]treamingAssets/aa/*
+src/quiver-survivor-entitas/[Ll]ibrary/
+src/quiver-survivor-entitas/[Tt]emp/
+src/quiver-survivor-entitas/[Oo]bj/
+src/quiver-survivor-entitas/[Bb]uild/
+src/quiver-survivor-entitas/[Bb]uilds/
+src/quiver-survivor-entitas/[Ll]ogs/
+src/quiver-survivor-entitas/[Uu]ser[Ss]ettings/
+src/quiver-survivor-entitas/[Aa]ssets/Plugins/Editor/JetBrains*
+src/quiver-survivor-entitas/[Aa]ssets/[Ss]treamingAssets/aa.meta
+src/quiver-survivor-entitas/[Aa]ssets/[Ss]treamingAssets/aa/*
 
 
 .DS_Store
