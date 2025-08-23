@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -290,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: Tree_Raw_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 14
@@ -298,6 +301,7 @@ ScriptedImporter:
       spriteId: 0917afbcd4a8b4a4b9696c324aacf638
     - name: Tree_Raw_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 14
@@ -306,6 +310,7 @@ ScriptedImporter:
       spriteId: 6c3275817e4fb6f439f8b570499a2db5
     - name: Tree_Raw_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 44
         y: 14
@@ -314,6 +319,7 @@ ScriptedImporter:
       spriteId: c1833b0b34702c749bcbc44ea9dff213
     - name: Tree_Raw_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 14
@@ -322,6 +328,7 @@ ScriptedImporter:
       spriteId: d00aeb71eb373c14f8a58268a06b27d2
     - name: Tree_Raw_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 14
@@ -330,6 +337,7 @@ ScriptedImporter:
       spriteId: 0127711a1a412544ba7e78ac8e966a92
     - name: Tree_Raw_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 14
@@ -338,6 +346,7 @@ ScriptedImporter:
       spriteId: 5a4f1f91404b9124bb0f5dd432d7b218
     - name: Tree_Raw_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 14
@@ -346,6 +355,7 @@ ScriptedImporter:
       spriteId: 8702d7f89b4d0d442a722247b96a9b28
     - name: Tree_Raw_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 79
         y: 16
@@ -415,6 +425,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 192, y: 192}

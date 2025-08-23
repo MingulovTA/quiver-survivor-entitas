@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -230,6 +232,7 @@ ScriptedImporter:
     cells:
     - name: Wood_Tower_Red_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 21
@@ -238,6 +241,7 @@ ScriptedImporter:
       spriteId: 720a507c7ba2a97479c1138d3958e7a2
     - name: Wood_Tower_Red_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 21
@@ -246,6 +250,7 @@ ScriptedImporter:
       spriteId: 19e8a3adec352ce4788f973209a5ad65
     - name: Wood_Tower_Red_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 21
@@ -254,6 +259,7 @@ ScriptedImporter:
       spriteId: 9104fb9090fc3fe41a04806fba93bb3a
     - name: Wood_Tower_Red_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 21
@@ -262,6 +268,7 @@ ScriptedImporter:
       spriteId: 0ecbe65028b67bc4190bfe193bca8c5b
     - name: Wood_Tower_Red_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 21
@@ -331,6 +338,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 256, y: 192}

@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -810,6 +812,7 @@ ScriptedImporter:
     cells:
     - name: Torch_Red_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 59
@@ -818,6 +821,7 @@ ScriptedImporter:
       spriteId: ceaeddde402ba3b478adc7162f9a9ebe
     - name: Torch_Red_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 48
         y: 59
@@ -826,6 +830,7 @@ ScriptedImporter:
       spriteId: 7cf22294786dd9244af09d55c189d4ea
     - name: Torch_Red_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 69
         y: 59
@@ -834,6 +839,7 @@ ScriptedImporter:
       spriteId: df62d224028616e4ea8dd864aff2d40f
     - name: Torch_Red_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 53
         y: 59
@@ -842,6 +848,7 @@ ScriptedImporter:
       spriteId: 30ba4964cbebb2942aaa363edf15a8dd
     - name: Torch_Red_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 51
         y: 59
@@ -850,6 +857,7 @@ ScriptedImporter:
       spriteId: 2dfd6f603f529f34fafbc9f84d7dc1d2
     - name: Torch_Red_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 52
         y: 59
@@ -858,6 +866,7 @@ ScriptedImporter:
       spriteId: b69bb85cb1db8314f8e44a79993aed2a
     - name: Torch_Red_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 54
         y: 59
@@ -866,6 +875,7 @@ ScriptedImporter:
       spriteId: edf744bda69b97e498d29ad4b62c4105
     - name: Torch_Red_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 59
@@ -874,6 +884,7 @@ ScriptedImporter:
       spriteId: ea1dd0abaadb64d4e9d94ce0d8a7f537
     - name: Torch_Red_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 59
@@ -882,6 +893,7 @@ ScriptedImporter:
       spriteId: 08217d2c5d6d33c4d8968a724a1defd4
     - name: Torch_Red_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 59
@@ -890,6 +902,7 @@ ScriptedImporter:
       spriteId: cbe166a3c420aff4cbeee75bd1a55b70
     - name: Torch_Red_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 19
         y: 59
@@ -898,6 +911,7 @@ ScriptedImporter:
       spriteId: 3e8accf9335d8404a8d635817446a81f
     - name: Torch_Red_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 28
         y: 59
@@ -906,6 +920,7 @@ ScriptedImporter:
       spriteId: 9cda28707b349d542992375de7d4cf7a
     - name: Torch_Red_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 59
@@ -914,6 +929,7 @@ ScriptedImporter:
       spriteId: 9681e42d95f53b44298d09c6e10d7586
     - name: Torch_Red_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 19
         y: 59
@@ -922,6 +938,7 @@ ScriptedImporter:
       spriteId: 2e8b079365757aa4ead6a3a4748b9118
     - name: Torch_Red_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 28
         y: 59
@@ -930,6 +947,7 @@ ScriptedImporter:
       spriteId: 83433dab857c4404b9c13b2bdae869f9
     - name: Torch_Red_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 59
@@ -938,6 +956,7 @@ ScriptedImporter:
       spriteId: a1ea7a3f9431fdf4f9a12ae72aa6fdbd
     - name: Torch_Red_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 44
         y: 59
@@ -946,6 +965,7 @@ ScriptedImporter:
       spriteId: f7d90366062f5fa4a8e8e7560043df38
     - name: Torch_Red_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 59
@@ -954,6 +974,7 @@ ScriptedImporter:
       spriteId: 4ae87915e3df06a4486ace141cea2483
     - name: Torch_Red_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 59
@@ -962,6 +983,7 @@ ScriptedImporter:
       spriteId: c1342deaa144e1f438a89b22b04f272c
     - name: Torch_Red_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 58
@@ -970,6 +992,7 @@ ScriptedImporter:
       spriteId: 9abce474cd842ab4c8a5d5d3c03f03e2
     - name: Torch_Red_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 57
@@ -978,6 +1001,7 @@ ScriptedImporter:
       spriteId: 0dc5933f55a954148915e6dd992b4325
     - name: Torch_Red_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 59
@@ -986,6 +1010,7 @@ ScriptedImporter:
       spriteId: 73601fedfb1a07c48834d274a35296d3
     - name: Torch_Red_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 47
         y: 59
@@ -994,6 +1019,7 @@ ScriptedImporter:
       spriteId: d35e069cbc8428049bdadb7b9cebd59f
     - name: Torch_Red_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 59
@@ -1002,6 +1028,7 @@ ScriptedImporter:
       spriteId: d27da45eb2e48474d813bfc0fbf65630
     - name: Torch_Red_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 38
         y: 59
@@ -1010,6 +1037,7 @@ ScriptedImporter:
       spriteId: d0e29701950722149a2845c872ffea8f
     - name: Torch_Red_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 29
@@ -1018,6 +1046,7 @@ ScriptedImporter:
       spriteId: 34021fd6f7265734ea3ca8fe9b6a204a
     - name: Torch_Red_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 38
         y: 23
@@ -1026,6 +1055,7 @@ ScriptedImporter:
       spriteId: a546e99362466d84e99a26fed1a79e86
     - name: Torch_Red_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 27
@@ -1034,6 +1064,7 @@ ScriptedImporter:
       spriteId: 0c8606746f052c847aaea64803f7fd22
     - name: Torch_Red_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 68
         y: 59
@@ -1042,6 +1073,7 @@ ScriptedImporter:
       spriteId: c9773caef4e39b0409aa58b2cc924da1
     - name: Torch_Red_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 44
@@ -1050,6 +1082,7 @@ ScriptedImporter:
       spriteId: 910f7995f7625ec4fa3f674acb1160d8
     - name: Torch_Red_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 41
@@ -1058,6 +1091,7 @@ ScriptedImporter:
       spriteId: 552a4925b22562e4a8f8c66d837609a3
     - name: Torch_Red_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 47
@@ -1066,6 +1100,7 @@ ScriptedImporter:
       spriteId: 095d8b685aa30c24db6de916a626920b
     - name: Torch_Red_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 51
@@ -1074,6 +1109,7 @@ ScriptedImporter:
       spriteId: c6874dc64cbdef64d9aaefe913e5eb96
     - name: Torch_Red_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 59
@@ -1143,6 +1179,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 192, y: 192}

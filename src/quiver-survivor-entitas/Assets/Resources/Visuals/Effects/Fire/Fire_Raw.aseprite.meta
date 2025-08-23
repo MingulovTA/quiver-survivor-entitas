@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -270,6 +272,7 @@ ScriptedImporter:
     cells:
     - name: Fire_Raw_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 34
         y: 23
@@ -278,6 +281,7 @@ ScriptedImporter:
       spriteId: f0234504536412c47878435617659ff1
     - name: Fire_Raw_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 32
         y: 24
@@ -286,6 +290,7 @@ ScriptedImporter:
       spriteId: 4e8d4adf34bf06a4282029335561dbd0
     - name: Fire_Raw_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 28
         y: 23
@@ -294,6 +299,7 @@ ScriptedImporter:
       spriteId: df07c9e77b0c87349b10c9363d9d6d61
     - name: Fire_Raw_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 23
@@ -302,6 +308,7 @@ ScriptedImporter:
       spriteId: 00605d99b818dcd4bb57ee4977b57ce2
     - name: Fire_Raw_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 36
         y: 17
@@ -310,6 +317,7 @@ ScriptedImporter:
       spriteId: 33137fbba7d5a6a48953e9cc58f0cf91
     - name: Fire_Raw_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 14
@@ -318,6 +326,7 @@ ScriptedImporter:
       spriteId: a0865784ab96226489ac3fc9d68d0694
     - name: Fire_Raw_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 17
@@ -387,6 +396,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 128, y: 128}

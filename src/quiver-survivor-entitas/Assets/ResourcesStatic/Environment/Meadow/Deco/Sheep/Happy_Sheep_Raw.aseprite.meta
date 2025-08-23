@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -430,6 +432,7 @@ ScriptedImporter:
     cells:
     - name: Happy_Sheep_Raw_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 42
@@ -438,6 +441,7 @@ ScriptedImporter:
       spriteId: 9fc18d80468c92144b6271e2c9fe053e
     - name: Happy_Sheep_Raw_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 42
@@ -446,6 +450,7 @@ ScriptedImporter:
       spriteId: 7b2de5aa6c003d9499fd2dc2b6a5426f
     - name: Happy_Sheep_Raw_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 42
@@ -454,6 +459,7 @@ ScriptedImporter:
       spriteId: 7474125ae4937f14ba419b266f9eee05
     - name: Happy_Sheep_Raw_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 42
@@ -462,6 +468,7 @@ ScriptedImporter:
       spriteId: f62a3be60814ca64fb86edbb47957f00
     - name: Happy_Sheep_Raw_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 42
@@ -470,6 +477,7 @@ ScriptedImporter:
       spriteId: 3ac2472a951f1d44589239c99e8dcf7c
     - name: Happy_Sheep_Raw_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 42
@@ -478,6 +486,7 @@ ScriptedImporter:
       spriteId: b43a6796fc0483549929926524007f70
     - name: Happy_Sheep_Raw_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 42
@@ -486,6 +495,7 @@ ScriptedImporter:
       spriteId: d945e6c05e54a3a418a930c30c897dc7
     - name: Happy_Sheep_Raw_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 42
@@ -494,6 +504,7 @@ ScriptedImporter:
       spriteId: f2fbbf5709c0463499f08d9d59492a61
     - name: Happy_Sheep_Raw_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 42
@@ -502,6 +513,7 @@ ScriptedImporter:
       spriteId: 5ccc3b3413672194f8e84734c169bd0e
     - name: Happy_Sheep_Raw_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 42
@@ -510,6 +522,7 @@ ScriptedImporter:
       spriteId: 17f6698f18295ec4b816dfe0c0233881
     - name: Happy_Sheep_Raw_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 45
         y: 42
@@ -518,6 +531,7 @@ ScriptedImporter:
       spriteId: fee429f3f40009e49a51e97e29958b75
     - name: Happy_Sheep_Raw_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 42
@@ -526,6 +540,7 @@ ScriptedImporter:
       spriteId: 7c1c693c12775ae4e954dfaf5f1422dd
     - name: Happy_Sheep_Raw_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 42
@@ -534,6 +549,7 @@ ScriptedImporter:
       spriteId: 8f8646bc9b9253b42ba71de26d4a6044
     - name: Happy_Sheep_Raw_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 42
@@ -542,6 +558,7 @@ ScriptedImporter:
       spriteId: f5df5c31e133fd348b350caac5e0fa3d
     - name: Happy_Sheep_Raw_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 38
         y: 42
@@ -611,6 +628,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 128, y: 128}

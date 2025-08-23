@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -770,6 +772,7 @@ ScriptedImporter:
     cells:
     - name: Rocks_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 26
         y: -393
@@ -778,6 +781,7 @@ ScriptedImporter:
       spriteId: a25a9e5377192874e9006f3fcfc21040
     - name: Rocks_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 30
         y: -393
@@ -786,6 +790,7 @@ ScriptedImporter:
       spriteId: 95d62aad30b43d94fbc42c2cc53e4d89
     - name: Rocks_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 28
         y: -393
@@ -794,6 +799,7 @@ ScriptedImporter:
       spriteId: 9545d69c14a95ab45ad1d0694e27b026
     - name: Rocks_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: -393
@@ -802,6 +808,7 @@ ScriptedImporter:
       spriteId: 857e819182f99064cbad54f80830a376
     - name: Rocks_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: -393
@@ -810,6 +817,7 @@ ScriptedImporter:
       spriteId: 56b5cc8be07b19349b472d96baedaa55
     - name: Rocks_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 26
         y: -393
@@ -818,6 +826,7 @@ ScriptedImporter:
       spriteId: 7aabb3b5f41efdb43b90839f6a572669
     - name: Rocks_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 26
         y: -393
@@ -826,6 +835,7 @@ ScriptedImporter:
       spriteId: 79fedd829194f12468ec87d522fa5e1c
     - name: Rocks_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 26
         y: -393
@@ -834,6 +844,7 @@ ScriptedImporter:
       spriteId: 072a8ab2370c8154b93882edc6325ca3
     - name: Rocks_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 44
@@ -842,6 +853,7 @@ ScriptedImporter:
       spriteId: 93751a028a655d54d9aa5f5645151eb2
     - name: Rocks_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 45
@@ -850,6 +862,7 @@ ScriptedImporter:
       spriteId: 278721c8dfd8cf341be794041860cb4f
     - name: Rocks_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 44
@@ -858,6 +871,7 @@ ScriptedImporter:
       spriteId: 767e89c6c42754647b039f451d66bffe
     - name: Rocks_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 43
@@ -866,6 +880,7 @@ ScriptedImporter:
       spriteId: 5eb271f04437f38478092d2e0b90ac95
     - name: Rocks_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 41
@@ -874,6 +889,7 @@ ScriptedImporter:
       spriteId: ba48b586ad8c1854cb5e8a37ef182f54
     - name: Rocks_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 41
@@ -882,6 +898,7 @@ ScriptedImporter:
       spriteId: 5024a5e8cec1d2a48985452f86a62110
     - name: Rocks_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 41
@@ -890,6 +907,7 @@ ScriptedImporter:
       spriteId: 1eecade35c9619340a3e1c8077e883a1
     - name: Rocks_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 42
@@ -898,6 +916,7 @@ ScriptedImporter:
       spriteId: ad6b6c9eaf58a0244bfb1f1194cbe475
     - name: Rocks_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 34
         y: 41
@@ -906,6 +925,7 @@ ScriptedImporter:
       spriteId: b7514ba67140e144aaa15ac52aa10ec1
     - name: Rocks_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 33
         y: 42
@@ -914,6 +934,7 @@ ScriptedImporter:
       spriteId: 7ef83851ac6e4b7419b7ef40f66c960b
     - name: Rocks_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 32
         y: 40
@@ -922,6 +943,7 @@ ScriptedImporter:
       spriteId: 8fe7387745b6a0c4e818926431cee85d
     - name: Rocks_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 30
         y: 38
@@ -930,6 +952,7 @@ ScriptedImporter:
       spriteId: 5f261778dd9666f41badfe261393cbf2
     - name: Rocks_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 29
         y: 37
@@ -938,6 +961,7 @@ ScriptedImporter:
       spriteId: d7af196002a7bd348b0029d23102fb92
     - name: Rocks_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 29
         y: 38
@@ -946,6 +970,7 @@ ScriptedImporter:
       spriteId: 7368d04d8f5e91044b1b6363100a4bf0
     - name: Rocks_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 29
         y: 39
@@ -954,6 +979,7 @@ ScriptedImporter:
       spriteId: 2cad9b6cabe60a64f80ffbab01cd6bff
     - name: Rocks_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 30
         y: 40
@@ -962,6 +988,7 @@ ScriptedImporter:
       spriteId: 8e2629b58ae66b7448ec3c0194df725c
     - name: Rocks_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 24
         y: 32
@@ -970,6 +997,7 @@ ScriptedImporter:
       spriteId: 785504524dfbdb54cb87cdd69053d2e8
     - name: Rocks_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 34
@@ -978,6 +1006,7 @@ ScriptedImporter:
       spriteId: c81be863f40ef3b469a25ac77794cb63
     - name: Rocks_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 34
@@ -986,6 +1015,7 @@ ScriptedImporter:
       spriteId: 82b972a003fb06141b14c60a6d7a8de8
     - name: Rocks_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 31
@@ -994,6 +1024,7 @@ ScriptedImporter:
       spriteId: 770c543bcc56d99449bf87a53f9c37a0
     - name: Rocks_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 29
@@ -1002,6 +1033,7 @@ ScriptedImporter:
       spriteId: df7779d34942b6446995bc646da28f2a
     - name: Rocks_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 30
@@ -1010,6 +1042,7 @@ ScriptedImporter:
       spriteId: d4328027c25bb9e45a22c6cb5e65e2fc
     - name: Rocks_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 30
@@ -1018,6 +1051,7 @@ ScriptedImporter:
       spriteId: 69803eb8bbe4e98458e0a306172297ae
     - name: Rocks_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 31
@@ -1027,6 +1061,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 128, y: 128}

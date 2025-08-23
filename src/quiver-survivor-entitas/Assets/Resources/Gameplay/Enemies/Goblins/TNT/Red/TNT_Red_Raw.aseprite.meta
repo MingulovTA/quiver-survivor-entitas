@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -650,6 +652,7 @@ ScriptedImporter:
     cells:
     - name: TNT_Red_Raw_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 58
         y: 57
@@ -658,6 +661,7 @@ ScriptedImporter:
       spriteId: 284c5f5fbd457a241b2945d1b265b183
     - name: TNT_Red_Raw_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 58
         y: 57
@@ -666,6 +670,7 @@ ScriptedImporter:
       spriteId: a108c60bd8f88514dab6f7af9877cbc4
     - name: TNT_Red_Raw_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 59
         y: 57
@@ -674,6 +679,7 @@ ScriptedImporter:
       spriteId: 69e5c27a52efae14f8887e89449dd5db
     - name: TNT_Red_Raw_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 57
@@ -682,6 +688,7 @@ ScriptedImporter:
       spriteId: f2ee4e3acb5bb1c45a20f36c28c98814
     - name: TNT_Red_Raw_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 59
         y: 57
@@ -690,6 +697,7 @@ ScriptedImporter:
       spriteId: 565062b7a9ecb6b4ebff3983eaa8b039
     - name: TNT_Red_Raw_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 57
         y: 57
@@ -698,6 +706,7 @@ ScriptedImporter:
       spriteId: 913ce2526cc259f41a7541dcc9bbd3e9
     - name: TNT_Red_Raw_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 57
         y: 57
@@ -706,6 +715,7 @@ ScriptedImporter:
       spriteId: bc693b424bc03f94e858ab9c817cf83c
     - name: TNT_Red_Raw_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 59
@@ -714,6 +724,7 @@ ScriptedImporter:
       spriteId: ad63206e4ce161143b3908e88d58f927
     - name: TNT_Red_Raw_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 61
         y: 59
@@ -722,6 +733,7 @@ ScriptedImporter:
       spriteId: fda4736345e7b32499d97fad65e05d34
     - name: TNT_Red_Raw_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 59
@@ -730,6 +742,7 @@ ScriptedImporter:
       spriteId: c51fdbe8a77cf7c44a2841ac877ee995
     - name: TNT_Red_Raw_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 58
         y: 59
@@ -738,6 +751,7 @@ ScriptedImporter:
       spriteId: 9cfbfbc33b6866a40b03c0e1e1ac9f29
     - name: TNT_Red_Raw_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 57
         y: 59
@@ -746,6 +760,7 @@ ScriptedImporter:
       spriteId: 1d543cecd87ee724f9d5ae52fcf822aa
     - name: TNT_Red_Raw_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 58
         y: 59
@@ -754,6 +769,7 @@ ScriptedImporter:
       spriteId: b303e4155d117e74b9112fd1b5f7fff1
     - name: TNT_Red_Raw_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 57
@@ -762,6 +778,7 @@ ScriptedImporter:
       spriteId: 312b4fe81996cac40ac202bb96e93fdd
     - name: TNT_Red_Raw_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 51
         y: 57
@@ -770,6 +787,7 @@ ScriptedImporter:
       spriteId: 2b7afa8bae68696449a1989a4aa6d271
     - name: TNT_Red_Raw_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 57
@@ -778,6 +796,7 @@ ScriptedImporter:
       spriteId: 87fe62506fc29524eb3c15a269351c9c
     - name: TNT_Red_Raw_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 58
         y: 57
@@ -786,6 +805,7 @@ ScriptedImporter:
       spriteId: 8bb010fc8d5fa3c429c77e0b7f907194
     - name: TNT_Red_Raw_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 57
         y: 57
@@ -794,6 +814,7 @@ ScriptedImporter:
       spriteId: 955a41eb2b13a254d9fe5a25eeb62db8
     - name: TNT_Red_Raw_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 57
@@ -802,6 +823,7 @@ ScriptedImporter:
       spriteId: b457b1672c3ef8e438e298451c6840fb
     - name: TNT_Red_Raw_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 59
         y: 57
@@ -810,6 +832,7 @@ ScriptedImporter:
       spriteId: 05a1cd4abb494fb4987a723386df4362
     - name: TNT_Red_Raw_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 84
         y: 75
@@ -818,6 +841,7 @@ ScriptedImporter:
       spriteId: 56db8fd24e9b7e3408dfae84a3c57831
     - name: TNT_Red_Raw_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 84
         y: 75
@@ -826,6 +850,7 @@ ScriptedImporter:
       spriteId: 476a11d06f0de4a409c1b05d58b5bad8
     - name: TNT_Red_Raw_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 84
         y: 75
@@ -834,6 +859,7 @@ ScriptedImporter:
       spriteId: af1a5855d0531354aa92c902127f98eb
     - name: TNT_Red_Raw_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 84
         y: 75
@@ -842,6 +868,7 @@ ScriptedImporter:
       spriteId: a392b1de764b2b543a251afe7913b8aa
     - name: TNT_Red_Raw_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 84
         y: 75
@@ -850,6 +877,7 @@ ScriptedImporter:
       spriteId: 623904f8fa979fd4abf6c9c6bbda611f
     - name: TNT_Red_Raw_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 84
         y: 75
@@ -919,6 +947,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 192, y: 192}

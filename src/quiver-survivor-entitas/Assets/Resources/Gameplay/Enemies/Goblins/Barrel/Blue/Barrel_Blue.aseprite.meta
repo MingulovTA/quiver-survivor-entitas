@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -550,6 +552,7 @@ ScriptedImporter:
     cells:
     - name: Barrel_Blue_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 29
@@ -558,6 +561,7 @@ ScriptedImporter:
       spriteId: 1adfe4e765f167e438f385a8c980789e
     - name: Barrel_Blue_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 29
@@ -566,6 +570,7 @@ ScriptedImporter:
       spriteId: 36b21ecb3391041488995e1213e2e4df
     - name: Barrel_Blue_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 29
@@ -574,6 +579,7 @@ ScriptedImporter:
       spriteId: ec347621ddfa07e4e8def5f864110a2c
     - name: Barrel_Blue_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 25
@@ -582,6 +588,7 @@ ScriptedImporter:
       spriteId: 99fbb506d8cc36646a27c167cc418ff9
     - name: Barrel_Blue_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 25
@@ -590,6 +597,7 @@ ScriptedImporter:
       spriteId: 49f8e20ed805696459c0ff1b2a006a4c
     - name: Barrel_Blue_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 26
@@ -598,6 +606,7 @@ ScriptedImporter:
       spriteId: c1f58efc0eeefc24f816c91bd1db690f
     - name: Barrel_Blue_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 26
@@ -606,6 +615,7 @@ ScriptedImporter:
       spriteId: 00fdfb8d7572df240aed86a396924937
     - name: Barrel_Blue_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 26
@@ -614,6 +624,7 @@ ScriptedImporter:
       spriteId: b318570f33192a54e81e2c451cf05972
     - name: Barrel_Blue_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 26
@@ -622,6 +633,7 @@ ScriptedImporter:
       spriteId: de6ec49f60002f841a9ddf3a9d09fd64
     - name: Barrel_Blue_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 26
@@ -630,6 +642,7 @@ ScriptedImporter:
       spriteId: 95145b39ffcd2c54b97fb7bd9f6ff9d4
     - name: Barrel_Blue_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 25
@@ -638,6 +651,7 @@ ScriptedImporter:
       spriteId: be142d5875771ff499db79f128569c6d
     - name: Barrel_Blue_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 25
@@ -646,6 +660,7 @@ ScriptedImporter:
       spriteId: ca1cccb8bb41bcc4986a9f8c175bc0db
     - name: Barrel_Blue_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 29
@@ -654,6 +669,7 @@ ScriptedImporter:
       spriteId: d360430eeca0c4a40bfdb27cba9a320c
     - name: Barrel_Blue_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 29
@@ -662,6 +678,7 @@ ScriptedImporter:
       spriteId: d0d4af04645c96246b310c1d3093d612
     - name: Barrel_Blue_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 29
@@ -670,6 +687,7 @@ ScriptedImporter:
       spriteId: 0e6040f2b6927ed4a9d3638a1c92a135
     - name: Barrel_Blue_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 26
@@ -678,6 +696,7 @@ ScriptedImporter:
       spriteId: 80c367fb0e234af4ea9347a8ee8a8dd5
     - name: Barrel_Blue_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 25
@@ -686,6 +705,7 @@ ScriptedImporter:
       spriteId: dfb2d66b870b31040a928aefbdb71f09
     - name: Barrel_Blue_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 25
@@ -694,6 +714,7 @@ ScriptedImporter:
       spriteId: bbc825b2b3413ab41b6761c6f0f423ba
     - name: Barrel_Blue_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 29
@@ -702,6 +723,7 @@ ScriptedImporter:
       spriteId: 5cfef6271b8172a4f8b1c6f8f49ca6a0
     - name: Barrel_Blue_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 29
@@ -710,6 +732,7 @@ ScriptedImporter:
       spriteId: eb6a151d5d4c36948b01d1aa83e4a00c
     - name: Barrel_Blue_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 29
@@ -779,6 +802,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 128, y: 128}

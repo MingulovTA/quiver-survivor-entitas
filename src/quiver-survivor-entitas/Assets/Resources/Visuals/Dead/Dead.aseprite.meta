@@ -87,6 +87,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -99,6 +100,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -420,6 +422,7 @@ ScriptedImporter:
     cells:
     - name: Dead_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 29
@@ -428,6 +431,7 @@ ScriptedImporter:
       spriteId: eb0f108cf4d37c7498f9bc9dd048d147
     - name: Dead_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 29
@@ -436,6 +440,7 @@ ScriptedImporter:
       spriteId: 84547d07da0959b4cb606899db896da3
     - name: Dead_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 45
         y: 29
@@ -444,6 +449,7 @@ ScriptedImporter:
       spriteId: 9b2083b32ae44fb4d96a2016442bd4f1
     - name: Dead_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 38
         y: 29
@@ -452,6 +458,7 @@ ScriptedImporter:
       spriteId: 1ba8d6e782f22464bb3768856ede3783
     - name: Dead_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 48
         y: 29
@@ -460,6 +467,7 @@ ScriptedImporter:
       spriteId: 9e123adc85361bb41a6831ba5e0dda9d
     - name: Dead_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 46
         y: 29
@@ -468,6 +476,7 @@ ScriptedImporter:
       spriteId: 71a47affb5a2d9f44a600e0006498fbb
     - name: Dead_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 29
@@ -476,6 +485,7 @@ ScriptedImporter:
       spriteId: 54e15cf35a2bb794fb1d2eaaea29964e
     - name: Dead_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 48
         y: 29
@@ -484,6 +494,7 @@ ScriptedImporter:
       spriteId: 5af118628380cb647994dfcf03c7bc28
     - name: Dead_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 46
         y: 29
@@ -492,6 +503,7 @@ ScriptedImporter:
       spriteId: 2e6d74bad0e6f7644b5a5592b97e68f0
     - name: Dead_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 44
         y: 31
@@ -500,6 +512,7 @@ ScriptedImporter:
       spriteId: d51c8bb197fed6748af69ae930692a11
     - name: Dead_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 44
         y: 31
@@ -508,6 +521,7 @@ ScriptedImporter:
       spriteId: d3d8a5157a9bb2341a5894b07a4b827d
     - name: Dead_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 49
         y: 31
@@ -516,6 +530,7 @@ ScriptedImporter:
       spriteId: d7dd1ec78a115844fb604c5f39dd74d5
     - name: Dead_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 52
         y: 33
@@ -524,6 +539,7 @@ ScriptedImporter:
       spriteId: 9e42940b8eb46174c943320fa8945582
     - name: Dead_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 43
@@ -593,6 +609,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 128, y: 128}

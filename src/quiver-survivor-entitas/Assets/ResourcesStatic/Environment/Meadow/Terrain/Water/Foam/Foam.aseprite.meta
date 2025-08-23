@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -290,6 +292,7 @@ ScriptedImporter:
     cells:
     - name: Foam_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 55
@@ -298,6 +301,7 @@ ScriptedImporter:
       spriteId: f90eb78c2c5269e4ca7b211530cd52e7
     - name: Foam_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 55
@@ -306,6 +310,7 @@ ScriptedImporter:
       spriteId: 6e1dd625bc8cb6a438e25ca3a3a8f33f
     - name: Foam_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 55
@@ -314,6 +319,7 @@ ScriptedImporter:
       spriteId: abac70f2a1c168d4c87f88519e1576e2
     - name: Foam_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 55
@@ -322,6 +328,7 @@ ScriptedImporter:
       spriteId: 7c4bc986a1a916b47947c4f1423689b9
     - name: Foam_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 55
         y: 55
@@ -330,6 +337,7 @@ ScriptedImporter:
       spriteId: 2aef669eb937cec459a855ccecc4acf2
     - name: Foam_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 54
         y: 53
@@ -338,6 +346,7 @@ ScriptedImporter:
       spriteId: 754c2e6090895d740a8fc79d57de85bb
     - name: Foam_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 53
         y: 53
@@ -346,6 +355,7 @@ ScriptedImporter:
       spriteId: d9a050403f9cc264b9c90fae7361b9fc
     - name: Foam_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 54
         y: 54
@@ -355,6 +365,7 @@ ScriptedImporter:
     linkedCells: []
     parentIndex: -1
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 192, y: 192}

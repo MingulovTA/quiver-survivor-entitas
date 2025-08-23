@@ -77,6 +77,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -89,6 +90,7 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
@@ -870,6 +872,7 @@ ScriptedImporter:
     cells:
     - name: Pawn_Purple_Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 67
         y: 64
@@ -878,6 +881,7 @@ ScriptedImporter:
       spriteId: e5b42e61df2461f45a1607c680f8b116
     - name: Pawn_Purple_Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 67
         y: 64
@@ -886,6 +890,7 @@ ScriptedImporter:
       spriteId: 841f4cda27d869e4bb1e41c5f7650dcf
     - name: Pawn_Purple_Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 64
@@ -894,6 +899,7 @@ ScriptedImporter:
       spriteId: 1853440afac90a34bb6e46273b2f6798
     - name: Pawn_Purple_Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 64
@@ -902,6 +908,7 @@ ScriptedImporter:
       spriteId: 8d74a68a7fd67e94297cdc2490b854ee
     - name: Pawn_Purple_Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 67
         y: 64
@@ -910,6 +917,7 @@ ScriptedImporter:
       spriteId: 11ac68e069b05e944af490aaf966d708
     - name: Pawn_Purple_Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 68
         y: 64
@@ -918,6 +926,7 @@ ScriptedImporter:
       spriteId: ef39aaebb4bfa5b479aa4d11262324ef
     - name: Pawn_Purple_Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 68
         y: 64
@@ -926,6 +935,7 @@ ScriptedImporter:
       spriteId: 0fe054396a1f60849bc10fc5a019a0d8
     - name: Pawn_Purple_Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 64
@@ -934,6 +944,7 @@ ScriptedImporter:
       spriteId: 3dd01db78a046b743be760f9975a8016
     - name: Pawn_Purple_Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 64
@@ -942,6 +953,7 @@ ScriptedImporter:
       spriteId: 0bc1f3d4386c355408611f8868e40540
     - name: Pawn_Purple_Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 67
         y: 64
@@ -950,6 +962,7 @@ ScriptedImporter:
       spriteId: f7f1bf93c422ce546b1ce315ca665aa0
     - name: Pawn_Purple_Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 64
@@ -958,6 +971,7 @@ ScriptedImporter:
       spriteId: 475d60310b688e54686b094c717e31dd
     - name: Pawn_Purple_Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 67
         y: 64
@@ -966,6 +980,7 @@ ScriptedImporter:
       spriteId: 580f1fcfe5b6a144895e10e762a8a6f4
     - name: Pawn_Purple_Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 67
         y: 64
@@ -974,6 +989,7 @@ ScriptedImporter:
       spriteId: f95f7e0b10d376140a96ae22a17c8da7
     - name: Pawn_Purple_Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 64
         y: 64
@@ -982,6 +998,7 @@ ScriptedImporter:
       spriteId: b30f231abea02b1409684f9e6bdded82
     - name: Pawn_Purple_Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 64
@@ -990,6 +1007,7 @@ ScriptedImporter:
       spriteId: 8a32c6fb5b02890479dfaabf7b45f901
     - name: Pawn_Purple_Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 64
@@ -998,6 +1016,7 @@ ScriptedImporter:
       spriteId: 179a327972caa594f9ad08d3d76c59e3
     - name: Pawn_Purple_Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 64
         y: 64
@@ -1006,6 +1025,7 @@ ScriptedImporter:
       spriteId: 0261dc9509969c740815186fd97f4cb2
     - name: Pawn_Purple_Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 64
@@ -1014,6 +1034,7 @@ ScriptedImporter:
       spriteId: bbd2f6cb6c411a041a8de69b42960cf8
     - name: Pawn_Purple_Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 70
         y: 64
@@ -1022,6 +1043,7 @@ ScriptedImporter:
       spriteId: eafe8bfb055ec4540a6a31e22ff18e6c
     - name: Pawn_Purple_Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 64
@@ -1030,6 +1052,7 @@ ScriptedImporter:
       spriteId: 284af195c780f75489dd2b69a2717649
     - name: Pawn_Purple_Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 64
@@ -1038,6 +1061,7 @@ ScriptedImporter:
       spriteId: 9b961e2638e05f6438723f002a9de3b4
     - name: Pawn_Purple_Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 64
@@ -1046,6 +1070,7 @@ ScriptedImporter:
       spriteId: 816777a52cdc45e4b93d873fefe95727
     - name: Pawn_Purple_Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 53
         y: 64
@@ -1054,6 +1079,7 @@ ScriptedImporter:
       spriteId: b24c2bf90860d7d47bd6c8390b8fc310
     - name: Pawn_Purple_Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 64
@@ -1062,6 +1088,7 @@ ScriptedImporter:
       spriteId: bbdc90bd0acdf0242a55aeb84996a141
     - name: Pawn_Purple_Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 59
         y: 56
@@ -1070,6 +1097,7 @@ ScriptedImporter:
       spriteId: 274cbad44dbf8eb458ed4e093cc99c26
     - name: Pawn_Purple_Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 67
         y: 64
@@ -1078,6 +1106,7 @@ ScriptedImporter:
       spriteId: 199a6e330be7e0340a2cc9c7c828691f
     - name: Pawn_Purple_Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 64
@@ -1086,6 +1115,7 @@ ScriptedImporter:
       spriteId: 4c0b09f4a9869174ebf6933c038779b8
     - name: Pawn_Purple_Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 64
@@ -1094,6 +1124,7 @@ ScriptedImporter:
       spriteId: cc06b992f85f157408280deb6cbb4120
     - name: Pawn_Purple_Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 67
         y: 64
@@ -1102,6 +1133,7 @@ ScriptedImporter:
       spriteId: 5813dc788bcb5204799aa0421507f265
     - name: Pawn_Purple_Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 68
         y: 64
@@ -1110,6 +1142,7 @@ ScriptedImporter:
       spriteId: 6bd6b3dddfead334ab0ac40286fa73dc
     - name: Pawn_Purple_Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 68
         y: 64
@@ -1118,6 +1151,7 @@ ScriptedImporter:
       spriteId: 1bd72a88b3e603e45a6db082007ed99c
     - name: Pawn_Purple_Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 65
         y: 64
@@ -1126,6 +1160,7 @@ ScriptedImporter:
       spriteId: c4f3adf8004c107468cf428bbd51c169
     - name: Pawn_Purple_Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 66
         y: 64
@@ -1134,6 +1169,7 @@ ScriptedImporter:
       spriteId: c1af1368fd5b1b547ade42eea6496ae3
     - name: Pawn_Purple_Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 67
         y: 64
@@ -1142,6 +1178,7 @@ ScriptedImporter:
       spriteId: a838ef62a62698147aebdbefeff04a1a
     - name: Pawn_Purple_Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 69
         y: 64
@@ -1150,6 +1187,7 @@ ScriptedImporter:
       spriteId: ef7a1d38f601337489e7a64218c79df4
     - name: Pawn_Purple_Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 68
         y: 64
@@ -1158,6 +1196,7 @@ ScriptedImporter:
       spriteId: f1932dbd4c3b80542ac4d0b3d043061a
     - name: Pawn_Purple_Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 67
         y: 64
@@ -1227,6 +1266,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 192, y: 192}
