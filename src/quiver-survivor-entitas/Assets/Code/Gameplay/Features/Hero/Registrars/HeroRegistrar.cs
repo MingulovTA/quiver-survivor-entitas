@@ -1,6 +1,7 @@
 ﻿using System;
 using Code.Common.Entity;
 using Code.Common.Extensions;
+using Code.Gameplay.Features.Hero.Behaviours;
 using UnityEngine;
 
 namespace Code.Gameplay.Features.Hero.Registrars
@@ -8,6 +9,8 @@ namespace Code.Gameplay.Features.Hero.Registrars
     public class HeroRegistrar : MonoBehaviour
     {
         [SerializeField] private float _speed = 2;
+        [SerializeField] private HeroAnimator _heroAnimator;
+        
         private GameEntity _entity;
 
         private void Awake()
@@ -18,7 +21,10 @@ namespace Code.Gameplay.Features.Hero.Registrars
                 .AddWorldPosition(transform.position)
                 .AddDirection(Vector2.zero)
                 .AddSpeed(_speed)
+                .AddHeroAnimator(_heroAnimator)
+                .AddSpriteRenderer(_heroAnimator.SpriteRenderer)
                 .With(x=>x.isHero = true)
+                .With(x=>x.isTurnedAlongDirection = true)
                 ;
         }
     }
