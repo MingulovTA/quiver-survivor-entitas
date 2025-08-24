@@ -9,6 +9,7 @@ using Code.Gameplay.StaticData;
 using Code.Infrastructure.AssetManagement;
 using Code.Infrastructure.Identifiers;
 using Code.Infrastructure.Loading;
+using Code.Infrastructure.Systems;
 using Zenject;
 
 namespace Code.Infrastructure.Installers
@@ -24,7 +25,10 @@ namespace Code.Infrastructure.Installers
       BindContexts();
       BindGameplayServices();
       BindCameraProvider();
+      BindSystemFactory();
     }
+
+    private void BindSystemFactory() => Container.Bind<ISystemFactory>().To<SystemFactory>().AsSingle();
 
     private void BindContexts()
     {
