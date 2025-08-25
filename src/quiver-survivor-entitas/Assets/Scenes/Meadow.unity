@@ -45751,6 +45751,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: hero
       objectReference: {fileID: 0}
+    - target: {fileID: 3155358659704029030, guid: a4046c9821b644c4686c4e6d9653eb08, type: 3}
+      propertyPath: _speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5705183354153014204, guid: a4046c9821b644c4686c4e6d9653eb08, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8386491362069985314, guid: a4046c9821b644c4686c4e6d9653eb08, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.11845386

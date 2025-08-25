@@ -2,11 +2,11 @@
 using Code.Infrastructure.View.Registrars;
 using UnityEngine;
 
-namespace Code.Gameplay.Features.Hero.Registrars
+namespace Code.Gameplay.Features.Enemies.Registrars
 {
-    public class HeroRegistrar : EntityComponentRegistrar
+    public class EnemyRegistrar : EntityComponentRegistrar
     {
-        [SerializeField] private float _speed = 2;
+        [SerializeField] private float _speed = 1;
         
         public override void RegistrerComponents()
         {
@@ -14,8 +14,9 @@ namespace Code.Gameplay.Features.Hero.Registrars
                 .AddWorldPosition(transform.position)
                 .AddDirection(Vector2.zero)
                 .AddSpeed(_speed)
-                .With(x=>x.isHero = true)
+                .AddEnemyTypeId(EnemyTypeId.Goblin)
                 .With(x=>x.isTurnedAlongDirection = true)
+                .With(x=>x.isEnemy = true)
                 ;
         }
 
@@ -25,7 +26,7 @@ namespace Code.Gameplay.Features.Hero.Registrars
                 .RemoveWorldPosition()
                 .RemoveDirection()
                 .RemoveSpeed()
-                .With(x => x.isHero = false)
+                .RemoveEnemyTypeId()
                 .With(x => x.isTurnedAlongDirection = false)
                 ;
         }

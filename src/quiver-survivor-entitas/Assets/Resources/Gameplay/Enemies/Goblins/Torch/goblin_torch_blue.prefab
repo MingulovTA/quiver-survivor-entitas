@@ -112,6 +112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: goblin_torch_blue
       objectReference: {fileID: 0}
+    - target: {fileID: 1494078722012615206, guid: 87dfb064bc6d941469d685bf5de17e77, type: 3}
+      propertyPath: _spriteRenderer
+      value: 
+      objectReference: {fileID: 3224600182354190819}
     - target: {fileID: 1835253824857810547, guid: 87dfb064bc6d941469d685bf5de17e77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
