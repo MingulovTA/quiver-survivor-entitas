@@ -24,10 +24,16 @@ public static class GameComponentsLookup {
     public const int Moving = 13;
     public const int Speed = 14;
     public const int TurnedAlongDirection = 15;
-    public const int AxisInput = 16;
-    public const int Input = 17;
+    public const int CollectTargetsInterval = 16;
+    public const int CollectTargetsTimer = 17;
+    public const int LayerMask = 18;
+    public const int Radius = 19;
+    public const int ReadyToCollectTargets = 20;
+    public const int TargetsBuffer = 21;
+    public const int AxisInput = 22;
+    public const int Input = 23;
 
-    public const int TotalComponents = 18;
+    public const int TotalComponents = 24;
 
     public static readonly string[] componentNames = {
         "Destructed",
@@ -46,6 +52,12 @@ public static class GameComponentsLookup {
         "Moving",
         "Speed",
         "TurnedAlongDirection",
+        "CollectTargetsInterval",
+        "CollectTargetsTimer",
+        "LayerMask",
+        "Radius",
+        "ReadyToCollectTargets",
+        "TargetsBuffer",
         "AxisInput",
         "Input"
     };
@@ -67,6 +79,12 @@ public static class GameComponentsLookup {
         typeof(Code.Gameplay.Features.Movement.Moving),
         typeof(Code.Gameplay.Features.Movement.Speed),
         typeof(Code.Gameplay.Features.Movement.TurnedAlongDirection),
+        typeof(Code.Gameplay.Features.TargetCollection.CollectTargetsInterval),
+        typeof(Code.Gameplay.Features.TargetCollection.CollectTargetsTimer),
+        typeof(Code.Gameplay.Features.TargetCollection.LayerMask),
+        typeof(Code.Gameplay.Features.TargetCollection.Radius),
+        typeof(Code.Gameplay.Features.TargetCollection.ReadyToCollectTargets),
+        typeof(Code.Gameplay.Features.TargetCollection.TargetsBuffer),
         typeof(Code.Gameplay.Input.AxisInput),
         typeof(Code.Gameplay.Input.Input)
     };

@@ -5,7 +5,7 @@ namespace Code.Gameplay.Common.Collisions
 {
   public class CollisionRegistry : ICollisionRegistry
   {
-      private readonly Dictionary<int, IEntity> _entityByInstanceId = new();
+      private readonly Dictionary<int, IEntity> _entityByInstanceId = new Dictionary<int, IEntity>();
 
       public void Register(int instanceId, IEntity entity)
       {
