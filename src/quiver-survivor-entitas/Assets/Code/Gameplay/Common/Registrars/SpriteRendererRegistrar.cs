@@ -8,6 +8,10 @@ namespace Code.Gameplay.Common.Registrars
         [SerializeField] private SpriteRenderer _spriteRenderer;
         public override void RegistrerComponents() => Entity.AddSpriteRenderer(_spriteRenderer);
 
-        public override void UnregistrerComponents() => Entity.RemoveSpriteRenderer();
+        public override void UnregistrerComponents()
+        {
+            if (Entity.hasSpriteRenderer)
+                Entity.RemoveSpriteRenderer();
+        }
     }
 }

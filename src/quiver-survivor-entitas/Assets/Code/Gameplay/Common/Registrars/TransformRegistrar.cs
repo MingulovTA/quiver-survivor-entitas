@@ -6,6 +6,10 @@ namespace Code.Gameplay.Common.Registrars
     {
         public override void RegistrerComponents() => Entity.AddTransform(transform);
 
-        public override void UnregistrerComponents() => Entity.RemoveTransform();
+        public override void UnregistrerComponents()
+        {
+            if (Entity.hasTransform)
+                Entity.RemoveTransform();
+        }
     }
 }

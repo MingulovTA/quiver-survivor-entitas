@@ -26,8 +26,8 @@ namespace Code.Gameplay.Features.DamageApplication.Systems
                 {
                     targetEntity.ReplaceCurrentHealth(targetEntity.CurrentHealth - damageDealer.Damage);
                     
-                    if (targetEntity.hasDamageTaken)
-                        targetEntity.DamageTaken.PlayDamageTaken();
+                    if (targetEntity.hasDamageTakenAnimator)
+                        targetEntity.DamageTakenAnimator.PlayDamageTaken();
                 }
             }
         }

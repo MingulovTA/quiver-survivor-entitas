@@ -23,7 +23,6 @@ namespace Code.Gameplay.Features.Enemies.Systems
 
         public void Execute()
         {
-            Debug.Log($"{_enemies.count} - {_heroes.count}");
             foreach (GameEntity hero in _heroes)
             foreach (GameEntity enemy in _enemies)
             {

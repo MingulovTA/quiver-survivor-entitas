@@ -7,8 +7,21 @@ namespace Code.Gameplay.Features.Enemies.Registrars
     public class EnemyAnimatorRegistrar : EntityComponentRegistrar
     {
         [SerializeField] private EnemyAnimator _enemyAnimator;
-        public override void RegistrerComponents() => Entity.AddEnemyAnimator(_enemyAnimator);
+        public override void RegistrerComponents()
+        {
 
-        public override void UnregistrerComponents() => Entity.RemoveEnemyAnimator();
+            Entity
+                .AddEnemyAnimator(_enemyAnimator)
+                .AddDamageTakenAnimator(_enemyAnimator);
+        }
+
+        public override void UnregistrerComponents()
+        {
+            if (Entity.hasEnemyAnimator)
+                Entity.RemoveEnemyAnimator();
+
+            if (Entity.hasDamageTakenAnimator)
+                Entity.RemoveDamageTakenAnimator();
+        }
     }
 }
