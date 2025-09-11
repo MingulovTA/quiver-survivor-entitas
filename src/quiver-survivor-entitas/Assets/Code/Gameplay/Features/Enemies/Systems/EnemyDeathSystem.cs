@@ -19,7 +19,7 @@ namespace Code.Gameplay.Features.Enemies.Systems
         {
             foreach (var enemy in _enemies)
             {
-                //Todo enemy.REmoveTargetCollectionComponents();
+                //TODO: enemy.RemoveTargetCollectionComponents();
                 
                 
                 if (enemy.hasEnemyAnimator)
