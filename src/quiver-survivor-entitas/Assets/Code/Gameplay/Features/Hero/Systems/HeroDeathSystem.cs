@@ -19,6 +19,8 @@ namespace Code.Gameplay.Features.Hero.Systems
         {
             foreach (var hero in _heroes)
             {
+                hero.isMovementAvailable = false;
+                hero.isTurnedAlongDirection = false;
                 hero.HeroAnimator.PlayDied();
             }
         }

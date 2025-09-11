@@ -15,13 +15,15 @@ namespace Code.Gameplay
         public BattleFeature(ISystemFactory systemFactory)
         {
             Add(systemFactory.Create<MovementFeature>());
+            
             Add(systemFactory.Create<HeroFeature>());
+            Add(systemFactory.Create<EnemyFeature>());
+            Add(systemFactory.Create<DeathFeature>());
+
             Add(systemFactory.Create<InputFeature>());
             Add(systemFactory.Create<ProcessDestructedFeature>());
-            Add(systemFactory.Create<EnemyFeature>());
             Add(systemFactory.Create<TargetCollectFeature>());
             Add(systemFactory.Create<DamageApplicationFeature>());
-            Add(systemFactory.Create<DeathFeature>());
         }
     }
 }

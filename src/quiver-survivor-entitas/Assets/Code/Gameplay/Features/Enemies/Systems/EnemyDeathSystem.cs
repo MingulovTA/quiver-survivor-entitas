@@ -20,7 +20,8 @@ namespace Code.Gameplay.Features.Enemies.Systems
         {
             foreach (var enemy in _enemies)
             {
-                TODO: enemy.RemoveTargetCollectionComponents();
+                enemy.isMovementAvailable = false;
+                enemy.isTurnedAlongDirection = false;
                 enemy.RemoveTargetCollectionComponents();
                 
                 if (enemy.hasEnemyAnimator)
