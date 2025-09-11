@@ -3,12 +3,12 @@ using UnityEngine;
 
 namespace Code.Gameplay.Features.Enemies.Systems
 {
-    public class ChaseHeroSystem : IExecuteSystem
+    public class EnemyChaseHeroSystem : IExecuteSystem
     {
         private readonly IGroup<GameEntity> _enemies;
         private readonly IGroup<GameEntity> _heroes;
 
-        public ChaseHeroSystem(GameContext game)
+        public EnemyChaseHeroSystem(GameContext game)
         {
             _enemies = game.GetGroup(GameMatcher
                 .AllOf(

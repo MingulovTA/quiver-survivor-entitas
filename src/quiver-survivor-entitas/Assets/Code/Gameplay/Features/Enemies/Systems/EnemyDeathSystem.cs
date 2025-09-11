@@ -1,4 +1,5 @@
-﻿using Entitas;
+﻿using Code.Gameplay.Features.TargetCollection;
+using Entitas;
 
 namespace Code.Gameplay.Features.Enemies.Systems
 {
@@ -19,8 +20,8 @@ namespace Code.Gameplay.Features.Enemies.Systems
         {
             foreach (var enemy in _enemies)
             {
-                //TODO: enemy.RemoveTargetCollectionComponents();
-                
+                TODO: enemy.RemoveTargetCollectionComponents();
+                enemy.RemoveTargetCollectionComponents();
                 
                 if (enemy.hasEnemyAnimator)
                     enemy.EnemyAnimator.PlayDied();

@@ -12,8 +12,9 @@ namespace Code.Gameplay.Features.Lifetime.Systems
         public MarkDeadSystem(GameContext gameContext)
         {
             _entities = gameContext.GetGroup(GameMatcher.AllOf(
-                GameMatcher.CurrentHealth,
-                GameMatcher.MaxHealth).NoneOf(GameMatcher.Dead));
+                GameMatcher.CurrentHealth, 
+                GameMatcher.MaxHealth)
+                .NoneOf(GameMatcher.Dead));
         }
 
         public void Execute()
