@@ -22,6 +22,7 @@ namespace Code.Gameplay.Features.Hero.Factory
                     .AddSpeed(3)
                     .AddCurrentHealth(100)
                     .AddMaxHealth(100)
+                    .AddViewPath("Gameplay/Hero/hero")
                     .With(x=>x.isHero = true)
                     .With(x=>x.isTurnedAlongDirection = true)
                     .With(x=>x.isMovementAvailable = true)
