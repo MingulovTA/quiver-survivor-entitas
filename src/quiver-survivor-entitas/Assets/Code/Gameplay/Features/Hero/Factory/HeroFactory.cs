@@ -17,6 +17,7 @@ namespace Code.Gameplay.Features.Hero.Factory
         {
             //Todo Закинуть константы в конфиг SD
             return CreateEntity.Empty()
+                    .AddId(_identifierService.Next())
                     .AddWorldPosition(at)
                     .AddDirection(Vector2.zero)
                     .AddSpeed(3)
