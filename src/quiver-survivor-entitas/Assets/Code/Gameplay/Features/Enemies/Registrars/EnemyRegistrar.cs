@@ -28,6 +28,7 @@ namespace Code.Gameplay.Features.Enemies.Registrars
                 .AddEnemyTypeId(EnemyTypeId.Goblin)
                 .With(x=>x.isTurnedAlongDirection = true)
                 .With(x=>x.isEnemy = true)
+                .With(x=>x.isMovementAvailable = true)
                 ;
         }
 
