@@ -9,7 +9,7 @@ namespace Code.Gameplay.Features.Enemies.Systems
 {
     public class EnemySpawnSystem : IExecuteSystem
     {
-        private const float DELAY_BEFORE_NEXT_SPAWN = 1;
+        private const float DELAY_BEFORE_NEXT_SPAWN = .01f;
         private const float SPAWN_DISTANCE_GAP = .5f;
         
         private readonly ITimeService _timeService;

@@ -5,7 +5,6 @@ using Code.Gameplay.Features.Armaments.Factory;
 using Code.Gameplay.Features.Cooldowns;
 using Code.Gameplay.StaticData;
 using Entitas;
-using NotImplementedException = System.NotImplementedException;
 
 namespace Code.Gameplay.Features.Abilities.System
 {
@@ -43,11 +42,13 @@ namespace Code.Gameplay.Features.Abilities.System
             foreach (GameEntity hero in _heroes)
             {
                 if (_enemies.count <= 0) continue;
-                _armamentFactory.CreateVegetableBolt(1, hero.WorldPosition)
+                
+                _armamentFactory
+                    .CreateVegetableBolt(1, hero.WorldPosition)
+                    .AddProducerId(hero.Id)
                     .ReplaceDirection((FirstAvailiableTarget().WorldPosition-hero.WorldPosition).normalized)
                     .With(x => x.isMoving = true)
                     ;
-                
                 
                 ability
                     .PutOnCooldown(_staticDataService.GetAbilityLevel(AbilityId.VegetableBolt, 1).Cooldown);

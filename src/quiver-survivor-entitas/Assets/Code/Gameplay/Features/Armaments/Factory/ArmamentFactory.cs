@@ -40,7 +40,7 @@ namespace Code.Gameplay.Features.Armaments.Factory
                 .With(x => x.isReadyToCollectTargets = true)
                 .With(x => x.isCollectingTargetsContinuously = true)
                 .AddViewPrefab(abilityLevel.ViewPrefab)
-                .AddDamage(1)
+                .AddEffectSetups(abilityLevel.EffectSetups)
                 .AddSelfDestructTimer(setup.LifeTime)
                 ;
         }

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using Code.Gameplay.Features.Effects;
 using Code.Infrastructure.View;
 
 namespace Code.Gameplay.Features.Abilities
@@ -8,6 +10,7 @@ namespace Code.Gameplay.Features.Abilities
     {
         public float Cooldown;
         public EntityBehaviour ViewPrefab;
+        public List<EffectSetup> EffectSetups;
         public ProjectTileSetup ProjectTileSetup;
     }
 }
